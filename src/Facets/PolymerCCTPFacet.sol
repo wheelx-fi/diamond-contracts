@@ -294,8 +294,14 @@ contract PolymerCCTPFacet is
         if (chainId == 480) {
             return 14; // World Chain
         }
+        if (chainId == 143) {
+            return 15; // Monad
+        }
         if (chainId == 1329) {
             return 16; // Sei
+        }
+        if (chainId == 56) {
+            return 17; // BSC
         }
         if (chainId == 50) {
             return 18; // XDC
