@@ -94,6 +94,14 @@
       "0x6bdc36e20d267ff0dd6097799f82e78907105e2f"
     ]
   },
+  "hyperevm": {
+    "chainId": 999,
+    "acrossSpokePool": "0x35E63eA3eb0fb7A3bc543C71FB66412e1F6B0E04",
+    "tokensToApprove": [
+      "0xb88339cb7199b77e23db6e890353e22632ba630f",
+      "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb"
+    ]
+  },
   "zksync": {
     "chainId": 324,
     "acrossSpokePool": "0xE0B015E54d54fc84a6cB9B666099c46adE9335FF",
