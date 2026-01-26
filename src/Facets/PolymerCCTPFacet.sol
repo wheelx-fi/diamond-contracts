@@ -44,6 +44,8 @@ contract PolymerCCTPFacet is
         // the minimum finality at which a burn message will be attested to, will be passed directly to tokenMessenger.depositForBurn method.
         // 1000 = fast path, 2000 = standard path
         uint32 minFinalityThreshold;
+        // hooks for cctp v2
+        bytes hookData;
     }
 
     /// Events ///
@@ -186,6 +188,8 @@ contract PolymerCCTPFacet is
         uint256 bridgeAmount = _bridgeData.minAmount -
             _polymerData.polymerTokenFee;
 
+        bytes32 receiver;
+
         // This case first for gas ops since it will likely be triggered more often
         if (_bridgeData.receiver != NON_EVM_ADDRESS) {
             // _bridgeData.receiver != NON_EVM_ADDRESS -> mint to _bridgeData.receiver
@@ -193,35 +197,42 @@ contract PolymerCCTPFacet is
                 revert InvalidReceiver();
             }
 
-            TOKEN_MESSENGER.depositForBurn(
-                bridgeAmount,
-                _chainIdToDomainId(_bridgeData.destinationChainId),
-                bytes32(uint256(uint160(_bridgeData.receiver))),
-                USDC,
-                UNRESTRICTED_DESTINATION_CALLER,
-                _polymerData.maxCCTPFee, // maxFee - 0 means no fee limit
-                _polymerData.minFinalityThreshold // minFinalityThreshold - use default
-            );
+            receiver = bytes32(uint256(uint160(_bridgeData.receiver)));
         } else {
             // _bridgeData.receiver == NON_EVM_ADDRESS -> mint to _polymerData.nonEVMReceiver
             if (_polymerData.nonEVMReceiver == bytes32(0)) {
                 revert InvalidReceiver();
             }
 
-            TOKEN_MESSENGER.depositForBurn(
-                bridgeAmount,
-                _chainIdToDomainId(_bridgeData.destinationChainId),
-                _polymerData.nonEVMReceiver,
-                USDC,
-                UNRESTRICTED_DESTINATION_CALLER,
-                _polymerData.maxCCTPFee, // maxFee - 0 means no fee limit
-                _polymerData.minFinalityThreshold // minFinalityThreshold - use default
-            );
+            receiver = _polymerData.nonEVMReceiver;
 
             emit BridgeToNonEVMChainBytes32(
                 _bridgeData.transactionId,
                 _bridgeData.destinationChainId,
                 _polymerData.nonEVMReceiver
+            );
+        }
+
+        if (_polymerData.hookData.length == 0) {
+            TOKEN_MESSENGER.depositForBurn(
+                bridgeAmount,
+                _chainIdToDomainId(_bridgeData.destinationChainId),
+                receiver,
+                USDC,
+                UNRESTRICTED_DESTINATION_CALLER,
+                _polymerData.maxCCTPFee, // maxFee - 0 means no fee limit
+                _polymerData.minFinalityThreshold // minFinalityThreshold - use default
+            );
+        } else {
+            TOKEN_MESSENGER.depositForBurnWithHook(
+                bridgeAmount,
+                _chainIdToDomainId(_bridgeData.destinationChainId),
+                receiver,
+                USDC,
+                UNRESTRICTED_DESTINATION_CALLER,
+                _polymerData.maxCCTPFee, // maxFee - 0 means no fee limit
+                _polymerData.minFinalityThreshold, // minFinalityThreshold - use default
+                _polymerData.hookData
             );
         }
 
