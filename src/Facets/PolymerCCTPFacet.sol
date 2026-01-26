@@ -24,9 +24,6 @@ contract PolymerCCTPFacet is
     Validatable,
     LiFiData
 {
-    /// @notice bytes32(0) allows any address to complete the CCTP transfer on destination chain
-    bytes32 private constant UNRESTRICTED_DESTINATION_CALLER = bytes32(0);
-
     /// @notice The address of the TokenMessenger contract on the current chain
     ITokenMessenger public immutable TOKEN_MESSENGER;
     /// @notice The address of the USDC token on the current chain
@@ -44,6 +41,9 @@ contract PolymerCCTPFacet is
         // the minimum finality at which a burn message will be attested to, will be passed directly to tokenMessenger.depositForBurn method.
         // 1000 = fast path, 2000 = standard path
         uint32 minFinalityThreshold;
+        // address that is authorized to call on destination chain, will be passed directly to
+        // tokenMessenger.depositForBurn method.
+        bytes32 destinationCaller;
         // hooks for cctp v2
         bytes hookData;
     }
@@ -175,11 +175,13 @@ contract PolymerCCTPFacet is
         ILiFi.BridgeData memory _bridgeData,
         PolymerCCTPData calldata _polymerData
     ) internal {
-        LibAsset.transferERC20(
-            USDC,
-            POLYMER_FEE_RECEIVER,
-            _polymerData.polymerTokenFee
-        );
+        if (_polymerData.polymerTokenFee > 0) {
+            LibAsset.transferERC20(
+                USDC,
+                POLYMER_FEE_RECEIVER,
+                _polymerData.polymerTokenFee
+            );
+        }
 
         // we do not prevent error cases here like the following to save gas:
         // `if (_bridgeData.minAmount <= _polymerData.polymerTokenFee) revert InvalidAmount();`
@@ -219,7 +221,7 @@ contract PolymerCCTPFacet is
                 _chainIdToDomainId(_bridgeData.destinationChainId),
                 receiver,
                 USDC,
-                UNRESTRICTED_DESTINATION_CALLER,
+                _polymerData.destinationCaller,
                 _polymerData.maxCCTPFee, // maxFee - 0 means no fee limit
                 _polymerData.minFinalityThreshold // minFinalityThreshold - use default
             );
@@ -229,7 +231,7 @@ contract PolymerCCTPFacet is
                 _chainIdToDomainId(_bridgeData.destinationChainId),
                 receiver,
                 USDC,
-                UNRESTRICTED_DESTINATION_CALLER,
+                _polymerData.destinationCaller,
                 _polymerData.maxCCTPFee, // maxFee - 0 means no fee limit
                 _polymerData.minFinalityThreshold, // minFinalityThreshold - use default
                 _polymerData.hookData
