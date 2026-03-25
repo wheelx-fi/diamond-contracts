@@ -148,7 +148,7 @@ contract WheelXDEXAggregator is WithdrawablePeriphery {
     /// @param tokenOut Address of the output token
     /// @param amountOutMin Minimum amount of the output token
     /// @return amountOut Actual amount of the output token
-    function processRoute(
+    function processRouteWheelX(
         address tokenIn,
         uint256 amountIn,
         address tokenOut,
