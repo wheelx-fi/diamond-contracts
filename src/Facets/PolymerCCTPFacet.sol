@@ -330,7 +330,7 @@ contract PolymerCCTPFacet is
         if (chainId == 50) {
             return 18; // XDC
         }
-        if (chainId == 999) {
+        if (chainId == 999 || chainId == LIFI_CHAIN_ID_HYPERCORE) {
             return 19; // HyperEVM
         }
         if (chainId == 57073) {
