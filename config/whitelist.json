@@ -4751,11 +4751,144 @@
     },
     {
       "name": "Uniswap API",
-      "key": "uniswap",
-      "logoURI": "",
-      "webUrl": "",
       "contracts": {
         "soneium": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "base": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "mainnet": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "optimism": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "bsc": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "unichain": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "polygon": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "monad": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "xlayer": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "zksync": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "worldchain": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "tempo": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "arbitrum": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "celo": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "avalanche": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "linea": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "blast": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ],
+        "zora": [
           {
             "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
             "functions": {
