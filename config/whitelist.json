@@ -4748,6 +4748,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Uniswap API",
+      "key": "uniswap",
+      "logoURI": "",
+      "webUrl": "",
+      "contracts": {
+        "soneium": [
+          {
+            "address": "0xbc1d9760bd6ca468ca9fb5ff2cfbeac35d86c973",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
+        ]
+      }
     }
   ],
   "PERIPHERY": {
