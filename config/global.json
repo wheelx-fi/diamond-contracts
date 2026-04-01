@@ -97,6 +97,12 @@
         "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
       }
     ],
+    "WheelXDEXAggregator": [
+      {
+        "selector": "0x7a410314",
+        "signature": "processRouteWheelX(address,uint256,address,uint256,address,bytes)"
+      }
+    ],
     "Patcher": [
       {
         "selector": "0xefae576b",
