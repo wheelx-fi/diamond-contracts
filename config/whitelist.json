@@ -4757,7 +4757,7 @@
       "contracts": {
         "soneium": [
           {
-            "address": "0xbc1d9760bd6ca468ca9fb5ff2cfbeac35d86c973",
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
             "functions": {
               "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
             }
