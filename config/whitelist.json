@@ -4897,6 +4897,27 @@
           }
         ]
       }
+    },
+    {
+      "name": "KYO API",
+      "contracts": {
+        "soneium": [
+          {
+            "address": "0x206d7fbbd740780d7eff488d40744276e8daf077",
+            "functions": {
+              "0xa5d4096b": "swap(address,address,address,uint256,uint256,bytes)"
+            }
+          }
+        ],
+        "hyperevm": [
+          {
+            "address": "0x206d7fbbd740780d7eff488d40744276e8daf077",
+            "functions": {
+              "0xa5d4096b": "swap(address,address,address,uint256,uint256,bytes)"
+            }
+          }
+        ]
+      }
     }
   ],
   "PERIPHERY": {
