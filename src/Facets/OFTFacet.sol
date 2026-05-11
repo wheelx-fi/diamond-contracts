@@ -106,18 +106,15 @@ contract OFTFacet is ILiFi, ReentrancyGuard, SwapperV2, Validatable {
         if (IOFT(oftToken).token() != token) revert InvalidOFTToken();
 
         // approve the OFT contract to spend the deposited token
-        // For standard OFT (oftToken == token) no approval is needed — the OFT
-        // burns from msg.sender directly rather than pulling via transferFrom.
-        // For OFTAdapter (oftToken != token), the adapter pulls the underlying
-        // token via transferFrom, so approval is required.
-        if (oftToken != token) {
-            uint256 currentAllowance = ERC20(token).allowance(address(this), oftToken);
-            if (currentAllowance < _bridgeData.minAmount) {
-                if (currentAllowance != 0) {
-                    token.safeApprove(oftToken, 0);
-                }
-                token.safeApprove(oftToken, type(uint256).max);
+        // OFTAdapter pulls tokens via transferFrom during send(), so approval
+        // is required. For standard OFT (oftToken == token) the approval is
+        // harmless — _debit uses _burn(), not transferFrom().
+        uint256 currentAllowance = ERC20(token).allowance(address(this), oftToken);
+        if (currentAllowance < _bridgeData.minAmount) {
+            if (currentAllowance != 0) {
+                token.safeApprove(oftToken, 0);
             }
+            token.safeApprove(oftToken, type(uint256).max);
         }
 
         uint256 msgValue = _oftData.fee.nativeFee;
