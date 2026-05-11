@@ -78,6 +78,14 @@ contract PolymerCCTPFacet is
             revert CannotBridgeToSameNetwork();
         }
 
+        // When hasDestinationCall is true, hookData must carry swap execution instructions
+        // for the destination receiver. Other CCTP v2 hook use cases (e.g. sponsored CCTP) can
+        // pass hookData even without hasDestinationCall, so we only enforce non-empty when the
+        // caller explicitly signals a destination call.
+        if (_bridgeData.hasDestinationCall && _polymerData.hookData.length == 0) {
+            revert InvalidCallData();
+        }
+
         _;
     }
 
@@ -129,7 +137,6 @@ contract PolymerCCTPFacet is
         validatePolymerData(_bridgeData, _polymerData)
         onlyAllowSourceToken(_bridgeData, USDC)
         doesNotContainSourceSwaps(_bridgeData)
-        doesNotContainDestinationCalls(_bridgeData)
     {
         // We intentionally use transferFromERC20 here since the facet only supports one token: USDC
         LibAsset.transferFromERC20(
@@ -158,7 +165,6 @@ contract PolymerCCTPFacet is
         validatePolymerData(_bridgeData, _polymerData)
         onlyAllowSourceToken(_bridgeData, USDC)
         containsSourceSwaps(_bridgeData)
-        doesNotContainDestinationCalls(_bridgeData)
     {
         _bridgeData.minAmount = _depositAndSwap(
             _bridgeData.transactionId,
