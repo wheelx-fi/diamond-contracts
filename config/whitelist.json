@@ -250,6 +250,20 @@
               "0x94cfab17": "dodoMutliSwap(uint256,uint256,uint256[],address[],address[],bytes[],bytes,uint256)"
             }
           }
+        ],
+        "pharos": [
+          {
+            "address": "0xBF105f4ffBD3825f5433d074008B9A76237d849c",
+            "functions": {}
+          },
+          {
+            "address": "0xA5cA5Fbe34e444F366B373170541ec6902b0F75c",
+            "functions": {
+              "0xff84aafa": "mixSwap(address,address,uint256,uint256,uint256,address[],address[],address[],uint256,bytes[],bytes,uint256)",
+              "0x2fa11647": "externalSwap(address,address,address,address,uint256,uint256,uint256,bytes,bytes,uint256)",
+              "0x79b6f086": "dodoMutliSwap(uint256,uint256,uint256,uint256[],address[],address[],bytes[],bytes,uint256)"
+            }
+          }
         ]
       }
     },
