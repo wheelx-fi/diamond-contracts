@@ -106,7 +106,7 @@ contract PolymerCCTPFacet is
         // pass hookData even without hasDestinationCall, so we only enforce non-empty when the
         // caller explicitly signals a destination call.
         if (_bridgeData.hasDestinationCall && _polymerData.hookData.length == 0) {
-            revert InvalidCallData();
+            revert InvalidConfig();
         }
 
         _;
