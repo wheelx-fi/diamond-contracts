@@ -1148,26 +1148,6 @@
             }
           }
         ],
-        "fantom": [
-          {
-            "address": "0xd0c22a5435f4e8e5770c1fafb5374015fc12f7cd",
-            "functions": {
-              "0x3b635ce4": "swap((address,uint256,address,address,uint256,uint256,address),bytes,address,uint32)",
-              "0x83bd37f9": "swapCompact()",
-              "0x7bf2d6d4": "swapMulti((address,uint256,address)[],(address,uint256,address)[],uint256,bytes,address,uint32)",
-              "0x84a7f3dd": "swapMultiCompact()"
-            }
-          },
-          {
-            "address": "0x0d05a7d3448512b78fa8a9e46c4872c88c4a0d05",
-            "functions": {
-              "0x83bd37f9": "swapCompact()",
-              "0x84a7f3dd": "swapMultiCompact()",
-              "0x30f80b4c": "swap((address,uint256,address,address,uint256,uint256,address),bytes,address,(uint64,uint64,address))",
-              "0xfef828dc": "swapMulti((address,uint256,address)[],(address,uint256,uint256,address)[],bytes,address,(uint64,uint64,address))"
-            }
-          }
-        ],
         "fraxtal": [
           {
             "address": "0x56c85a254dd12ee8d9c04049a4ab62769ce98210",
@@ -1751,14 +1731,6 @@
             }
           }
         ],
-        "fantom": [
-          {
-            "address": "0x6352a56caadc4f1e25cd6c75970fa768a3304e64",
-            "functions": {
-              "0x90411a32": "swap(address,(address,address,address,address,uint256,uint256,uint256,uint256,address,bytes),(uint256,uint256,uint256,bytes)[])"
-            }
-          }
-        ],
         "zksync": [
           {
             "address": "0x36a1acbbcafca2468b85011ddd16e7cb4d673230",
@@ -1778,14 +1750,6 @@
         "metis": [
           {
             "address": "0x6352a56caadc4f1e25cd6c75970fa768a3304e64",
-            "functions": {
-              "0x90411a32": "swap(address,(address,address,address,address,uint256,uint256,uint256,uint256,address,bytes),(uint256,uint256,uint256,bytes)[])"
-            }
-          }
-        ],
-        "polygonzkevm": [
-          {
-            "address": "0x6dd434082eab5cd134b33719ec1ff05fe985b97b",
             "functions": {
               "0x90411a32": "swap(address,(address,address,address,address,uint256,uint256,uint256,uint256,address,bytes),(uint256,uint256,uint256,bytes)[])"
             }
@@ -2623,51 +2587,6 @@
             }
           }
         ],
-        "fantom": [
-          {
-            "address": "0x3d2f8ae0344d38525d2ae96ab750b83480c0844f",
-            "functions": {
-              "0x2646478b": "processRoute(address,uint256,address,uint256,address,bytes)"
-            }
-          },
-          {
-            "address": "0x2214a42d8e2a1d20635c2cb0664422c528b6a432",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x2646478b": "processRoute(address,uint256,address,uint256,address,bytes)"
-            }
-          },
-          {
-            "address": "0x46b3fdf7b5cde91ac049936bf0bdb12c5d22202e",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x2646478b": "processRoute(address,uint256,address,uint256,address,bytes)"
-            }
-          },
-          {
-            "address": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x2646478b": "processRoute(address,uint256,address,uint256,address,bytes)",
-              "0x47f8bd41": ""
-            }
-          },
-          {
-            "address": "0x85cd07ea01423b1e937929b44e4ad8c40bbb5e71",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0xdd9c5f96": "",
-              "0xee623204": ""
-            }
-          },
-          {
-            "address": "0xac4c6e212a361c968f1725b4d055b47e63f80b75",
-            "functions": {
-              "0x5f3bd1c8": "snwap(address,uint256,address,address,uint256,address,bytes)",
-              "0xd33721a5": "snwapMultiple((address,uint256,address)[],(address,address,uint256)[],(address,uint256,bytes)[])"
-            }
-          }
-        ],
         "boba": [
           {
             "address": "0x85cd07ea01423b1e937929b44e4ad8c40bbb5e71",
@@ -2724,45 +2643,6 @@
         "metis": [
           {
             "address": "0xb45e53277a7e0f1d35f2a77160e91e25507f1763",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x2646478b": "processRoute(address,uint256,address,uint256,address,bytes)"
-            }
-          },
-          {
-            "address": "0xf2614a233c7c3e7f08b1f887ba133a13f1eb2c55",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x2646478b": "processRoute(address,uint256,address,uint256,address,bytes)",
-              "0x47f8bd41": ""
-            }
-          },
-          {
-            "address": "0x85cd07ea01423b1e937929b44e4ad8c40bbb5e71",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0xdd9c5f96": "",
-              "0xee623204": ""
-            }
-          },
-          {
-            "address": "0xac4c6e212a361c968f1725b4d055b47e63f80b75",
-            "functions": {
-              "0x5f3bd1c8": "snwap(address,uint256,address,address,uint256,address,bytes)",
-              "0xd33721a5": "snwapMultiple((address,uint256,address)[],(address,address,uint256)[],(address,uint256,bytes)[])"
-            }
-          }
-        ],
-        "polygonzkevm": [
-          {
-            "address": "0x2f686751b19a9d91cc3d57d90150bc767f050066",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x2646478b": "processRoute(address,uint256,address,uint256,address,bytes)"
-            }
-          },
-          {
-            "address": "0x57bffa72db682f7eb6c132dae03ff36bbeb0c459",
             "functions": {
               "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
               "0x2646478b": "processRoute(address,uint256,address,uint256,address,bytes)"
@@ -3603,117 +3483,6 @@
             }
           }
         ],
-        "xlayer": [
-          {
-            "address": "0xd30d8ca2e7715ee6804a287eb86fafc0839b1380",
-            "functions": {
-              "0x03b87e5f": "",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)"
-            }
-          },
-          {
-            "address": "0x8b773d83bc66be128c60e07e17c8901f7a64f000",
-            "functions": {}
-          },
-          {
-            "address": "0x69c236e021f5775b0d0328ded5eac708e3b869df",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          },
-          {
-            "address": "0x0efa3a01eb0708f9e40b661c6cd7c56c83b9f45a",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x0c307f76": "dagSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),(address[],address[],uint256[],bytes[],uint256)[])",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          },
-          {
-            "address": "0xbec6d0e341102732e4fd62ec50e2f0a9d1bd1d33",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x0c307f76": "dagSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),(address[],address[],uint256[],bytes[],uint256)[])",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          }
-        ],
-        "fantom": [
-          {
-            "address": "0xd30d8ca2e7715ee6804a287eb86fafc0839b1380",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)"
-            }
-          },
-          {
-            "address": "0x70cbb871e8f30fc8ce23609e9e0ea87b6b222f58",
-            "functions": {}
-          },
-          {
-            "address": "0x79f7c6c6dc16ed3154e85a8ef9c1ef31cefaeb19",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)"
-            }
-          },
-          {
-            "address": "0x5e2f47bd7d4b357fcfd0bb224eb665773b1b9801",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          },
-          {
-            "address": "0xcf76984119c7f6ae56fafe680d39c08278b7ecf4",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x0c307f76": "dagSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),(address[],address[],uint256[],bytes[],uint256)[])",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          },
-          {
-            "address": "0x25e7f77f33206d311a0130d4b5b881e5db1181b1",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x0c307f76": "dagSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),(address[],address[],uint256[],bytes[],uint256)[])",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          }
-        ],
         "zksync": [
           {
             "address": "0x5058c498864795689fe41fb54f29a8b71f0a7201",
@@ -3764,128 +3533,6 @@
           },
           {
             "address": "0x3163ed233a3cb5e6b7f10a6f02b01f15867a8779",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x0c307f76": "dagSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),(address[],address[],uint256[],bytes[],uint256)[])",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          },
-          {
-            "address": "0x6f7c20464258c732577c87a9b467619e03e5c158",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x0c307f76": "dagSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),(address[],address[],uint256[],bytes[],uint256)[])",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          }
-        ],
-        "metis": [
-          {
-            "address": "0x06f183d52d92c13a5f2b989b8710ba7f00bd6f87",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)"
-            }
-          },
-          {
-            "address": "0x57df6092665eb6058de53939612413ff4b09114e",
-            "functions": {}
-          },
-          {
-            "address": "0xc589a4ed6a9fc3354d7eef88ba87b51afc272783",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)"
-            }
-          },
-          {
-            "address": "0xcf76984119c7f6ae56fafe680d39c08278b7ecf4",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          },
-          {
-            "address": "0xdd5e9b947c99aa60bab00ca4631dce63b49983e7",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x0c307f76": "dagSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),(address[],address[],uint256[],bytes[],uint256)[])",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          },
-          {
-            "address": "0x25e7f77f33206d311a0130d4b5b881e5db1181b1",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x0c307f76": "dagSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),(address[],address[],uint256[],bytes[],uint256)[])",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          }
-        ],
-        "polygonzkevm": [
-          {
-            "address": "0xd30d8ca2e7715ee6804a287eb86fafc0839b1380",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)"
-            }
-          },
-          {
-            "address": "0x57df6092665eb6058de53939612413ff4b09114e",
-            "functions": {}
-          },
-          {
-            "address": "0x69c236e021f5775b0d0328ded5eac708e3b869df",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)"
-            }
-          },
-          {
-            "address": "0xf5402ccc5fc3181b45d7571512999d3eea0257b6",
-            "functions": {
-              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
-              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
-              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
-              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
-              "0x01617fab": "swapWrap(uint256,uint256)",
-              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
-            }
-          },
-          {
-            "address": "0x79f7c6c6dc16ed3154e85a8ef9c1ef31cefaeb19",
             "functions": {
               "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
               "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
@@ -4195,7 +3842,8 @@
           {
             "address": "0x06f183d52d92c13a5f2b989b8710ba7f00bd6f87",
             "functions": {
-              "0x03b87e5f": "",
+              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
+              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
               "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
               "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
               "0x01617fab": "swapWrap(uint256,uint256)"
@@ -4208,7 +3856,8 @@
           {
             "address": "0xcf76984119c7f6ae56fafe680d39c08278b7ecf4",
             "functions": {
-              "0x03b87e5f": "",
+              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
+              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
               "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
               "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
               "0x01617fab": "swapWrap(uint256,uint256)"
@@ -4324,6 +3973,18 @@
           },
           {
             "address": "0xcf76984119c7f6ae56fafe680d39c08278b7ecf4",
+            "functions": {
+              "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
+              "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
+              "0x0d5f0e3b": "uniswapV3SwapTo(uint256,uint256,uint256,uint256[])",
+              "0x08298b5a": "unxswapTo(uint256,uint256,uint256,address,bytes32[])",
+              "0x01617fab": "swapWrap(uint256,uint256)",
+              "0x0c307f76": "dagSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),(address[],address[],uint256[],bytes[],uint256)[])",
+              "0x98d2ac62": "swapWrapToWithBaseRequest(uint256,address,(uint256,address,uint256,uint256,uint256))"
+            }
+          },
+          {
+            "address": "0x6f91349e4161068c1ca6baace1570621bb00fdeb",
             "functions": {
               "0xfa461e33": "uniswapV3SwapCallback(int256,int256,bytes)",
               "0x03b87e5f": "smartSwapTo(uint256,address,(uint256,address,uint256,uint256,uint256),uint256[],(address[],address[],uint256[],bytes[],uint256)[][],(uint256,address,address,address,uint256,uint256,uint256,uint256,bool,bytes)[])",
@@ -4657,21 +4318,6 @@
             }
           }
         ],
-        "fantom": [
-          {
-            "address": "0x5affa5312ade198d9527acf058fee1c8ed8fe9f3",
-            "functions": {
-              "0x73fc4457": "swapWithMagpieSignature(bytes)",
-              "0x25e651ed": "swapWithUserSignature(bytes)"
-            }
-          },
-          {
-            "address": "0xf702814d2e1290f3d5f3202565df46272e1b1b92",
-            "functions": {
-              "0x46ec278a": "swapWithBackendSignature(bytes)"
-            }
-          }
-        ],
         "zksync": [
           {
             "address": "0xb44958ff91b4b67d8d4db010e38ccffe52551ecb",
@@ -4727,21 +4373,6 @@
           },
           {
             "address": "0xf702814d2e1290f3d5f3202565df46272e1b1b92",
-            "functions": {
-              "0x46ec278a": "swapWithBackendSignature(bytes)"
-            }
-          }
-        ],
-        "polygonzkevm": [
-          {
-            "address": "0x3950bf2fff93e5d502430f17924aef4c621ea772",
-            "functions": {
-              "0x73fc4457": "swapWithMagpieSignature(bytes)",
-              "0x25e651ed": "swapWithUserSignature(bytes)"
-            }
-          },
-          {
-            "address": "0xf5f3b8faf45023fd92c0c88fedf73fb0529fc1cd",
             "functions": {
               "0x46ec278a": "swapWithBackendSignature(bytes)"
             }
@@ -4942,6 +4573,14 @@
             }
           }
         ],
+        "arc": [
+          {
+            "address": "0x20f6ee51340adeed01a59b0e65cb3703f3dc860c",
+            "functions": {
+              "0x46ec278a": "swapWithBackendSignature(bytes)"
+            }
+          }
+        ],
         "arctestnet": [
           {
             "address": "0x956df8424b556f0076e8abf5481605f5a791cc7f",
@@ -5013,6 +4652,22 @@
         "telos": [
           {
             "address": "0xf5f3b8faf45023fd92c0c88fedf73fb0529fc1cd",
+            "functions": {
+              "0x46ec278a": "swapWithBackendSignature(bytes)"
+            }
+          }
+        ],
+        "somnia": [
+          {
+            "address": "0x20f6ee51340adeed01a59b0e65cb3703f3dc860c",
+            "functions": {
+              "0x46ec278a": "swapWithBackendSignature(bytes)"
+            }
+          }
+        ],
+        "etherlink": [
+          {
+            "address": "0x20f6ee51340adeed01a59b0e65cb3703f3dc860c",
             "functions": {
               "0x46ec278a": "swapWithBackendSignature(bytes)"
             }
@@ -5658,6 +5313,23 @@
           }
         ]
       }
+    },
+    {
+      "name": "Nexroute",
+      "key": "nexroute",
+      "logoURI": "https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/exchanges/nexroute.svg",
+      "webUrl": "https://nexroute.io",
+      "contracts": {
+        "bsc": [
+          {
+            "address": "0x6c9534e06a4aa13abf296278a194385f7ca16e70",
+            "functions": {
+              "0xafeb849c": "swapExactInput(address,address,uint256,uint256,uint256,bytes[])",
+              "0x72d76b4b": "swapExactInputETH(address,uint256,uint256,bytes[])"
+            }
+          }
+        ]
+      }
     }
   ],
   "PERIPHERY": {
@@ -5747,6 +5419,20 @@
           {
             "selector": "0xefae576b",
             "signature": "executeWithDynamicPatches(address,bytes,address,uint256,bytes,uint256[],bool)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -5847,6 +5533,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x0B1f03b79367CFB04245E6999943C05F441fFfEF",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "abstract": [
@@ -5913,6 +5613,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xA0f9473fF593a2cbC8dB331F4832E5aD99dfC6A9",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -5983,6 +5697,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "arbitrum": [
@@ -6049,6 +5777,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -6149,6 +5891,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xE6ca0479AE3849e393c5b4735c9D41D58CcCb8cb",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "arbitrumsepolia": [
@@ -6203,6 +5959,74 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x500AC17C064e3796004596a5c5d2c65067555692",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
+      }
+    ],
+    "arc": [
+      {
+        "name": "FeeCollector",
+        "address": "0x0604811F11863AA7904CF07c27875c80134744c7",
+        "selectors": [
+          {
+            "selector": "0xe0cbc5f2",
+            "signature": "collectNativeFees(uint256,uint256,address)"
+          },
+          {
+            "selector": "0xeedd56e1",
+            "signature": "collectTokenFees(address,uint256,uint256,address)"
+          }
+        ]
+      },
+      {
+        "name": "FeeForwarder",
+        "address": "0x8d01799a781A56377983E119c92036140F6D4d6f",
+        "selectors": [
+          {
+            "selector": "0x0e8ae67f",
+            "signature": "forwardNativeFees((address,uint256)[])"
+          },
+          {
+            "selector": "0x332d746b",
+            "signature": "forwardERC20Fees(address,(address,uint256)[])"
+          }
+        ]
+      },
+      {
+        "name": "LiFiDEXAggregator",
+        "address": "0xB479A5FF1b2Bda4D5F13fCAfF0C3Cd6102019F6B",
+        "selectors": [
+          {
+            "selector": "0x2646478b",
+            "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xE6ca0479AE3849e393c5b4735c9D41D58CcCb8cb",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "arctestnet": [
@@ -6241,6 +6065,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xE6ca0479AE3849e393c5b4735c9D41D58CcCb8cb",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -6331,6 +6169,20 @@
           {
             "selector": "0xefae576b",
             "signature": "executeWithDynamicPatches(address,bytes,address,uint256,bytes,uint256[],bool)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -6455,6 +6307,20 @@
         ]
       },
       {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
+      },
+      {
         "name": "Composer",
         "address": "0x9706b69De23Fe0B471Addd642175126B3A8BF071",
         "selectors": [
@@ -6537,6 +6403,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x500AC17C064e3796004596a5c5d2c65067555692",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "berachain": [
@@ -6603,6 +6483,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x3Ed2C6abfa00031664E879A648ed2A71BA45a4Cb",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -6703,6 +6597,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "bob": [
@@ -6769,6 +6677,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -6839,6 +6761,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "botanix": [
@@ -6907,6 +6843,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x7637A106fCcEBffc462D29161A386cFeE6f792FB",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "bsc": [
@@ -6973,6 +6923,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -7075,6 +7039,20 @@
         ]
       },
       {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
+      },
+      {
         "name": "Composer",
         "address": "0x9706b69De23Fe0B471Addd642175126B3A8BF071",
         "selectors": [
@@ -7171,6 +7149,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x95443EF1F6ABace3809037a13f007aEEa5029e66",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "cronos": [
@@ -7237,6 +7229,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -7307,6 +7313,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x4990566Aaa552524531774ca5a38B1a04773429A",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "flare": [
@@ -7373,6 +7393,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x7637A106fCcEBffc462D29161A386cFeE6f792FB",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -7443,6 +7477,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "fraxtal": [
@@ -7511,6 +7559,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "fuse": [
@@ -7577,6 +7639,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -7667,6 +7743,20 @@
           {
             "selector": "0xefae576b",
             "signature": "executeWithDynamicPatches(address,bytes,address,uint256,bytes,uint256[],bool)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -7767,6 +7857,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "hemi": [
@@ -7835,6 +7939,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "hyperevm": [
@@ -7901,6 +8019,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x905F229f14Ec9e7Dd7428417CfBe7DBf1e1FD386",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -8001,6 +8133,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "ink": [
@@ -8067,6 +8213,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -8137,6 +8297,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "kaia": [
@@ -8205,6 +8379,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFbb5BDeCDA4916bEe4B8aB6Ab2F7B89E2aDA4E8d",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "katana": [
@@ -8271,6 +8459,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x70DF6cF7943416c76A7a10d47bf0901cFA28B418",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -8371,6 +8573,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xA0f9473fF593a2cbC8dB331F4832E5aD99dfC6A9",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "linea": [
@@ -8437,6 +8653,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x5680A31e4b1d2FeceB14376BA9266dA897d18C77",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -8539,6 +8769,20 @@
         ]
       },
       {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
+      },
+      {
         "name": "Composer",
         "address": "0x9706b69De23Fe0B471Addd642175126B3A8BF071",
         "selectors": [
@@ -8633,6 +8877,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -8735,6 +8993,20 @@
         ]
       },
       {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
+      },
+      {
         "name": "Composer",
         "address": "0x875Bd979B56605aE2c5Ea8CAb53e064F832b6C34",
         "selectors": [
@@ -8831,6 +9103,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x93BA2c19bF542b389E3C6654F6031cE6e58d3cd9",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "mode": [
@@ -8899,6 +9185,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "monad": [
@@ -8965,6 +9265,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -9065,6 +9379,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "morph": [
@@ -9131,6 +9459,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x0B1f03b79367CFB04245E6999943C05F441fFfEF",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -9201,6 +9543,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x4E001D80ED10912530EfdDaC91f09F836FC87782",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "opbnb": [
@@ -9267,6 +9623,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -9353,6 +9723,20 @@
         ]
       },
       {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
+      },
+      {
         "name": "Composer",
         "address": "0x9706b69De23Fe0B471Addd642175126B3A8BF071",
         "selectors": [
@@ -9435,6 +9819,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x293BEf168Ca1310C12aeDbDcd8bFD05ab6f0b0C7",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "pharos": [
@@ -9501,6 +9899,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xE6ca0479AE3849e393c5b4735c9D41D58CcCb8cb",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -9571,6 +9983,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "plume": [
@@ -9637,6 +10063,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x95443EF1F6ABace3809037a13f007aEEa5029e66",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -9761,6 +10201,20 @@
         ]
       },
       {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
+      },
+      {
         "name": "Composer",
         "address": "0x9706b69De23Fe0B471Addd642175126B3A8BF071",
         "selectors": [
@@ -9857,6 +10311,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "rootstock": [
@@ -9925,6 +10393,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "scroll": [
@@ -9991,6 +10473,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -10091,6 +10587,102 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
+      }
+    ],
+    "somnia": [
+      {
+        "name": "FeeCollector",
+        "address": "0x84F071fcD60e5ff3B0E618B80Fb3DD6857C0e20c",
+        "selectors": [
+          {
+            "selector": "0xe0cbc5f2",
+            "signature": "collectNativeFees(uint256,uint256,address)"
+          },
+          {
+            "selector": "0xeedd56e1",
+            "signature": "collectTokenFees(address,uint256,uint256,address)"
+          }
+        ]
+      },
+      {
+        "name": "FeeForwarder",
+        "address": "0x312C114ecAA3755286D1AE985F0277b0C6E87057",
+        "selectors": [
+          {
+            "selector": "0x0e8ae67f",
+            "signature": "forwardNativeFees((address,uint256)[])"
+          },
+          {
+            "selector": "0x332d746b",
+            "signature": "forwardERC20Fees(address,(address,uint256)[])"
+          }
+        ]
+      },
+      {
+        "name": "GasZipPeriphery",
+        "address": "0xC4d74fe42cd158276d7EB97d946e485faFBda89b",
+        "selectors": [
+          {
+            "selector": "0x8b71ae6c",
+            "signature": "depositToGasZipERC20((address,address,address,address,uint256,bytes,bool),(bytes32,uint256))"
+          },
+          {
+            "selector": "0xc4af5a74",
+            "signature": "depositToGasZipNative((bytes32,uint256),uint256)"
+          }
+        ]
+      },
+      {
+        "name": "TokenWrapper",
+        "address": "0x6c29Ee558c2dCBcc9d45a666A5240353273E23dD",
+        "selectors": [
+          {
+            "selector": "0x3ccfd60b",
+            "signature": "withdraw()"
+          },
+          {
+            "selector": "0xd0e30db0",
+            "signature": "deposit()"
+          }
+        ]
+      },
+      {
+        "name": "LiFiDEXAggregator",
+        "address": "0xAD7272F01ccA70814387555C14C2F7AC1C50Aa98",
+        "selectors": [
+          {
+            "selector": "0x2646478b",
+            "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x99Eb16Cd3602D90eb9e530C9BFA622b7c96CEf5B",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "soneium": [
@@ -10171,6 +10763,20 @@
           {
             "selector": "0xa816ca92",
             "signature": "unwrapWstETHToStETH(uint256)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -10273,6 +10879,20 @@
         ]
       },
       {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
+      },
+      {
         "name": "Composer",
         "address": "0x9706b69De23Fe0B471Addd642175126B3A8BF071",
         "selectors": [
@@ -10369,6 +10989,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xA0f9473fF593a2cbC8dB331F4832E5aD99dfC6A9",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "stable": [
@@ -10435,6 +11069,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -10505,6 +11153,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "swellchain": [
@@ -10571,6 +11233,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x1808ceD816EC35C672Bdea98c0239ac469694377",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -10641,6 +11317,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x5680A31e4b1d2FeceB14376BA9266dA897d18C77",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "telos": [
@@ -10709,6 +11399,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x361C9203a357242734791faD2D8C4DCec028a9Db",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "tempo": [
@@ -10749,6 +11453,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xE6ca0479AE3849e393c5b4735c9D41D58CcCb8cb",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "tron": [
@@ -10768,7 +11486,7 @@
       },
       {
         "name": "FeeForwarder",
-        "address": "TCipFFZJkZQ9Ny3W4y6kyZEKrU3FVnzbNQ",
+        "address": "TBiwoFZpHoSG1NkdpTvgSi7bDm1W8DdAF8",
         "selectors": [
           {
             "selector": "0x0e8ae67f",
@@ -10791,6 +11509,20 @@
           {
             "selector": "0xd0e30db0",
             "signature": "deposit()"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "TTumBQrmwWGacj7LEybnnxgHVxamJqFAWq",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }
@@ -10873,6 +11605,20 @@
           {
             "selector": "0xa816ca92",
             "signature": "unwrapWstETHToStETH(uint256)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xb02d5BCA761495d881Bfa5270771941bCba4Cd06",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -10973,6 +11719,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x7637A106fCcEBffc462D29161A386cFeE6f792FB",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "viction": [
@@ -11041,6 +11801,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x7637A106fCcEBffc462D29161A386cFeE6f792FB",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "worldchain": [
@@ -11107,6 +11881,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       },
@@ -11207,6 +11995,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0x4E001D80ED10912530EfdDaC91f09F836FC87782",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "xlayer": [
@@ -11275,6 +12077,20 @@
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
           }
         ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xFafE4c4CEc5Ed070A4aFDc0f92826c5Ba276Cb80",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
+          }
+        ]
       }
     ],
     "zksync": [
@@ -11341,6 +12157,20 @@
           {
             "selector": "0x2646478b",
             "signature": "processRoute(address,uint256,address,uint256,address,bytes)"
+          }
+        ]
+      },
+      {
+        "name": "OutputValidator",
+        "address": "0xA0f9473fF593a2cbC8dB331F4832E5aD99dfC6A9",
+        "selectors": [
+          {
+            "selector": "0x27444dab",
+            "signature": "validateERC20Output(address,uint256,address)"
+          },
+          {
+            "selector": "0x5d865df2",
+            "signature": "validateNativeOutput(uint256,address)"
           }
         ]
       }

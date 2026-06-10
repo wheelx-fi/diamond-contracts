@@ -209,6 +209,8 @@ export interface IChainCallResult {
   receipt?: TransactionReceipt
   /** Gas used by the transaction (from receipt). */
   gasUsed?: bigint
+  /** Human-readable explorer URL for CLI display. */
+  explorerUrl?: string
 }
 
 /** Result of simulating a contract call (dry-run). */
@@ -234,6 +236,7 @@ export interface IProposeToSafeOptions {
   derivationPath?: string
   safeAddress?: string
   calldataFile?: string
+  nonce?: bigint
 }
 
 /** Strategy interface for chain-specific generic contract call broadcasting. */

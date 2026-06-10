@@ -21,10 +21,6 @@
         "Name": "DexManagerFacet",
         "Version": "1.0.2"
       },
-      "0x32aAa3d5a7541E2c845B00b6EEd5B9bdb8df7320": {
-        "Name": "EmergencyPauseFacet",
-        "Version": "1.0.1"
-      },
       "0x843A1AA0131CBD55F188de709806B8046848E392": {
         "Name": "GasZipFacet",
         "Version": "2.0.5"
@@ -53,9 +49,9 @@
         "Name": "WhitelistManagerFacet",
         "Version": "1.0.0"
       },
-      "0x12B47a94737D8c45793CFC8690716B600E1C2D31": {
+      "0x17508BC3E587683E6f98bE89b5fDC28521611138": {
         "Name": "PolymerCCTPFacet",
-        "Version": "1.0.0"
+        "Version": "2.0.1"
       },
       "0xE2Bf645a908A5515C2FEC03d3edDb59c6eF606Fe": {
         "Name": "GlacisFacet",
@@ -65,9 +61,9 @@
         "Name": "WhitelistRecoveryFacet",
         "Version": "1.0.2"
       },
-      "0x17508BC3E587683E6f98bE89b5fDC28521611138": {
-        "Name": "PolymerCCTPFacet",
-        "Version": "2.0.1"
+      "0x1de212FC75c4B11e7E9C791a611dd5fe776636ad": {
+        "Name": "EmergencyPauseFacet",
+        "Version": "1.0.1"
       }
     },
     "Periphery": {
@@ -85,7 +81,8 @@
       "ReceiverChainflip": "",
       "ReceiverOIF": "",
       "ReceiverStargateV2": "0xCcC863C0BDae52EA076C44711f3C92D65f07DEb9",
-      "TokenWrapper": "0xF63b27AE2Dc887b88f82E2Cc597d07fBB2E78E70"
+      "TokenWrapper": "0xF63b27AE2Dc887b88f82E2Cc597d07fBB2E78E70",
+      "OutputValidator": "0x266f7a44969d0003AFD94cdf96bdfdEDd8754133"
     }
   }
 }
