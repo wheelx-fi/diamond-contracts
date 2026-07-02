@@ -2037,14 +2037,6 @@
               "0x2213bc0b": "exec(address,address,uint256,address,bytes)"
             }
           }
-        ],
-        "robinhood": [
-          {
-            "address": "0x0000000000005e88410ccdfade4a5efae4b49562",
-            "functions": {
-              "0x2213bc0b": "exec(address,address,uint256,address,bytes)"
-            }
-          }
         ]
       }
     },
