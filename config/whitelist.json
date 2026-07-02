@@ -5298,6 +5298,14 @@
               "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
             }
           }
+        ],
+        "robinhood": [
+          {
+            "address": "0x02E5be68D46DAc0B524905bfF209cf47EE6dB2a9",
+            "functions": {
+              "0x2894adf9": "execute(address,address,uint256,bytes,bytes[],uint256)"
+            }
+          }
         ]
       }
     },
