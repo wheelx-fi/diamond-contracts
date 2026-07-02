@@ -95,6 +95,8 @@ jobs:
 
       - name: Install Bun
         uses: oven-sh/setup-bun@3d267786b128fe76c2f16a390aa2448b815359f3 # v2.1.2
+        with:
+          bun-version-file: package.json
 
       - name: Install gum
         # gum is required by helper functions sourced via deployAllContracts;
@@ -114,7 +116,7 @@ jobs:
           gum --version
 
       - name: Install dependencies
-        run: bun install
+        run: bun install --frozen-lockfile
 
       - name: Prepare .env
         run: |
@@ -152,7 +154,9 @@ jobs:
           exit 1
 
       - name: Build contracts
-        run: forge build
+        # Skip .t.sol test contracts: the smoke deploy compiles src/ and the
+        # script/deploy/*.s.sol scripts but never deploys test contracts.
+        run: forge build --skip test
 
       - name: Run deploy smoke test
         run: bash script/deploy/smokeDeploy.sh 2>&1 | tee smoke-deploy.log
