@@ -5372,6 +5372,20 @@
           }
         ]
       }
+    },
+    {
+      "name": "BulbaSwap",
+      "key": "bulbaswap",
+      "contracts": {
+        "morph": [
+          {
+            "address": "0xb789922D715475F419b7CB47B6155bF7a2ACECD6",
+            "functions": {
+              "0x3593564c": "execute(bytes,bytes[],uint256)"
+            }
+          }
+        ]
+      }
     }
   ],
   "PERIPHERY": {
